@@ -1,5 +1,5 @@
-README for games\
+README for games
 
-[Yahtzee! Instructions](README_yahtzee.md)\
+[Yahtzee! Instructions](README_yahtzee.md)
 
-[Blackjack Instructions](README_blackjack.md)\
+[Blackjack Instructions](README_blackjack.md)
