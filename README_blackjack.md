@@ -48,6 +48,6 @@ Future Extensions
 1. Allow for custom bet size between rounds.
 2. Debug display of the second hand generated after “split” is called.
 3. Multi-threading for faster performance.
-4. 
+   
 Author
 Brock Pluimer
