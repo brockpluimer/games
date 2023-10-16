@@ -1,6 +1,7 @@
 Yahtzee! README
 
 Overview
+
 This Python script simulates a game of Yahtzee using ASCII art to display the dice. It supports multiple players, allows you to save and load games, and keeps track of the top 10 scores of all time.
 
 See yahtzee_rules.pdf for a guide on how to play.
@@ -13,6 +14,7 @@ Features
 * Multiplayer Support: Allows for multiple players.
 * Save and Load: Saves the game state with Pickle, and loads it if available.
 * Top Scores: Keeps track of the top 10 scores using JSON.
+  
 Constants
 * DICE_VALUES: Lists the possible dice values (1-6).
 * NUM_DICE: Number of dice in the game (5).
@@ -20,6 +22,7 @@ Constants
 * NUM_TURNS: Number of turns per player (13).
 * DICE_VISUALS: ASCII art for displaying dice values.
 * SCORING_CATEGORIES: Lists the possible scoring categories in the game.
+  
 Functions
 * display_dice(dice): Displays the ASCII art of the dice rolled.
 * roll_dice(): Returns a random dice roll.
@@ -30,6 +33,7 @@ Functions
 Future Improvements
 * Add a graphical user interface (GUI).
 * Implement a ‘help’ option to provide basic strategy advice.
+  
 Author
 Brock Pluimer
 
