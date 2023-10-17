@@ -4,7 +4,7 @@
 
 This Python script simulates a game of Yahtzee using ASCII art to display the dice. It supports multiple players, allows you to save and load games, and keeps track of the top 10 scores of all time.
 
-**ee yahtzee_rules.pdf for a guide on how to play.*
+*see yahtzee_rules.pdf for a guide on how to play.*
 
 **How to Run the Script**
 
