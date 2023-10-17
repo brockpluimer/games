@@ -3,6 +3,7 @@ Blackjack.py README
 Overview
 
 blackjack.py simulates a standard game of Las Vegas Blackjack
+
 The game supports:
 * Basic hit, stand, split, double down actions
 * Blackjack check
