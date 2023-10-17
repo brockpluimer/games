@@ -1,7 +1,9 @@
 Blackjack.py README
 
 Overview
+
 blackjack.py simulates a standard game of Las Vegas Blackjack
+
 The game supports:
 * Basic hit, stand, split, double down actions
 * Blackjack check
@@ -15,10 +17,14 @@ Dependencies
 * random for random shuffling and choices
 * pickle for saving and loading game states
 * os for checking file existence
+  
 How to Run
-To run the script, youíll need to input the number of players and buy in amount as arguments e.g. ìpython3 blackjack.py 1 100î for a one player game with $100 buy in. The default bet size is $5. This can be edited in line 241. The User will then input either ìnew gameî or ìload gameî. Next, choose a number 1-4 to select your character type. 
-The Dealerís cards are displayed as follows [X, 9?] where X represents the facedown card (note: basic strategy concludes that the User should assume the X is the equivalent of a 10). The Userís cards are both shown faceup. The User then has the option to hit, stand, split, double down, or ask for help. The ëhelpí option provides strategic guidance that has been hardcoded into the script (lines 149-214).
-After each hand, the User has the option to play another hand, ëcash outí, or ësaveí the game.
+
+To run the script, you‚Äôll need to input the number of players and buy in amount as arguments e.g. ‚Äúpython3 blackjack.py 1 100‚Äù for a one player game with $100 buy in. The default bet size is $5. This can be edited in line 241. The User will then input either ‚Äúnew game‚Äù or ‚Äúload game‚Äù. Next, choose a number 1-4 to select your character type. 
+The Dealer‚Äôs cards are displayed as follows [X, 9?] where X represents the facedown card (note: basic strategy concludes that the User should assume the X is the equivalent of a 10). The User‚Äôs cards are both shown faceup. The User then has the option to hit, stand, split, double down, or ask for help. The ‚Äòhelp‚Äô option provides strategic guidance that has been hardcoded into the script (lines 149-214).
+
+After each hand, the User has the option to play another hand, ‚Äòcash out‚Äô, or ‚Äòsave‚Äô the game.
+
 Classes
 * Card: Represents a single card with a suit and value.
 * Deck: Contains a standard 52-card deck of Card objects, supports shuffling and drawing.
@@ -38,9 +44,11 @@ Offers complimentary breakfast based on consecutive wins.
 Checks if a player has a blackjack.
 * play_blackjack
 The main function that initializes and runs the Blackjack game.
+
 Future Extensions
 1. Allow for custom bet size between rounds.
-2. Debug display of the second hand generated after ìsplitî is called.
+2. Debug display of the second hand generated after ‚Äúsplit‚Äù is called.
 3. Multi-threading for faster performance.
+   
 Author
 Brock Pluimer

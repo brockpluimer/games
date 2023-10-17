@@ -1,17 +1,20 @@
 Yahtzee! README
 
 Overview
+
 This Python script simulates a game of Yahtzee using ASCII art to display the dice. It supports multiple players, allows you to save and load games, and keeps track of the top 10 scores of all time.
 
-How to Play Yahtzee
+See yahtzee_rules.pdf for a guide on how to play.
 
 How to Run the Script
-To run the game, input ìpython3 yahtzee.pyî. Then input the number of players e.g. 1. The result is 5 dice that are automatically rolled. Input the numbers corresponding to the dice *that you want to re-roll*. The other dice will be kept for the next round. Alternatively, if the User wants to keep all dice, simply press Enter. After 3 rounds are completed, or all 5 dice are kept, the User will choose which category to save their score under. Categories 1-6 are considered the ìUpper Sectionî of a traditional Yahtzee! game and standard rules apply. That is, a score of 65 or more in the Upper Section yields a bonus of 35 points. At the end of the game, you'll be prompted to save the game state. Say 'y' to save.
+
+To run the game, input ‚Äúpython3 yahtzee.py‚Äù. Then input the number of players e.g. 1. The result is 5 dice that are automatically rolled. Input the numbers corresponding to the dice *that you want to re-roll*. The other dice will be kept for the next round. Alternatively, if the User wants to keep all dice, simply press Enter. After 3 rounds are completed, or all 5 dice are kept, the User will choose which category to save their score under. Categories 1-6 are considered the ‚ÄúUpper Section‚Äù of a traditional Yahtzee! game and standard rules apply. That is, a score of 65 or more in the Upper Section yields a bonus of 35 points. At the end of the game, you'll be prompted to save the game state. Say 'y' to save.
 
 Features
 * Multiplayer Support: Allows for multiple players.
 * Save and Load: Saves the game state with Pickle, and loads it if available.
 * Top Scores: Keeps track of the top 10 scores using JSON.
+  
 Constants
 * DICE_VALUES: Lists the possible dice values (1-6).
 * NUM_DICE: Number of dice in the game (5).
@@ -19,6 +22,7 @@ Constants
 * NUM_TURNS: Number of turns per player (13).
 * DICE_VISUALS: ASCII art for displaying dice values.
 * SCORING_CATEGORIES: Lists the possible scoring categories in the game.
+  
 Functions
 * display_dice(dice): Displays the ASCII art of the dice rolled.
 * roll_dice(): Returns a random dice roll.
@@ -28,7 +32,8 @@ Functions
 * save_scores(player_total_scores): Manages and displays the top scores.
 Future Improvements
 * Add a graphical user interface (GUI).
-* Implement a ëhelpí option to provide basic strategy advice.
+* Implement a ‚Äòhelp‚Äô option to provide basic strategy advice.
+  
 Author
 Brock Pluimer
 
