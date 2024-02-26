@@ -357,10 +357,14 @@ def play_blackjack(num_players, buy_in_amount, load_saved_game=False):
                         print("Winning hand:")
                         print(hand.to_ascii())
                     elif player_value == dealer_value:
+                        print()
                         print(f'{player.name} ties with the dealer!')
+                        print()
                         player.consecutive_wins = 0
                     else:
+                        print()
                         print(f'{player.name} loses!')
+                        print()
                         player.consecutive_wins = 0
                         player.buy_in_amount -= cost_per_round
 
@@ -378,18 +382,24 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) != 3:
+        print()
         print("Usage: python blackjack.py <number_of_players> <buy_in_amount>")
+        print()
         sys.exit(1)
 
     try:
         num_players = int(sys.argv[1])
         buy_in_amount = int(sys.argv[2])
     except ValueError:
+        print()
         print("Invalid arguments. Both number_of_players and buy_in_amount should be integers.")
+        print()
         sys.exit(1)
 
     while True:
+        print()
         game_action = input("Welcome to Vegas Baby! Type 'new game' to start a new game or 'load game' to load a saved game: ").lower()
+        print()
         if game_action == 'new game':
             play_blackjack(num_players, buy_in_amount)
             break
@@ -397,4 +407,6 @@ if __name__ == '__main__':
             play_blackjack(num_players, buy_in_amount, load_saved_game=True)
             break
         else:
+            print()
             print("Invalid input. Please type 'new game' or 'load game'.")
+            print()
