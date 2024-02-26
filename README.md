@@ -1,5 +1,5 @@
 Some lo-fi games for when you're stuck on a plane with low phone battery
 
-[Yahtzee! Instructions](README_yahtzee.md) :black_joker:
+:game_die: [Yahtzee! Instructions](README_yahtzee.md) :game_die:
 
-[Blackjack Instructions](README_blackjack.md) :game_die:
+:hearts: [Blackjack Instructions](README_blackjack.md) :spades:
