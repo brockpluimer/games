@@ -5,3 +5,5 @@ Some lo-fi games for when you're stuck on a plane with low phone battery
 :hearts: [Blackjack Instructions](README_blackjack.md) :spades:
 
 :snake: [SNAKE Instructions](README_SNAKE.md) :snake:
+
+:red_square: [NOTetris Instructions] (README_NOTetris.md) :blue_square:
