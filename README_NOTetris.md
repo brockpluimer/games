@@ -8,7 +8,7 @@ This Python script reimagines the classic Tetris game, featuring vibrant visuals
 
 To play the game, execute the following command in your terminal:
 
-python3 tetris.py
+python3 notetris.py
 
 Upon launching, players will be introduced to the gameplay mechanics, including how to move and rotate the falling tetrominos. The objective is to complete horizontal lines with the tetromino shapes, which then disappear to free up space on the board. The game ends when there's no more room for new tetrominos to fall.
 
