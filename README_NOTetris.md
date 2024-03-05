@@ -25,8 +25,11 @@ Customizable Controls: Players can move tetrominos left, right, and down using t
 **Game Controls**
 
 Left Arrow Key: Move left.
+
 Right Arrow Key: Move right.
+
 Down Arrow Key: Accelerate downwards.
+
 Up Arrow Key: Rotate the tetromino.
 
 **Starting the Game**
