@@ -7,3 +7,5 @@ Some lo-fi games for when you're stuck on a plane with low phone battery
 :snake: [SNAKE Instructions](README_SNAKE.md) :snake:
 
 :red_square: [NOTetris Instructions](README_NOTetris.md) :blue_square:
+
+:frog: [Blocker Instructions](README_blocker.md) :frog:
